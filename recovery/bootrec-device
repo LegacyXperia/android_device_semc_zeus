@@ -1,6 +1,1 @@
 #!/sbin/busybox sh
-
-export BOOTREC_CACHE_NODE="/dev/block/mtdblock2 b 31 2"
-export BOOTREC_CACHE="/dev/block/mtdblock2"
-export BOOTREC_EVENT_NODE="/dev/input/event1 c 13 65"
-export BOOTREC_EVENT="/dev/input/event1"
