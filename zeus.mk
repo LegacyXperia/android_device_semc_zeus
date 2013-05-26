@@ -16,24 +16,21 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Init files
 PRODUCT_COPY_FILES += \
-    device/semc/zeus/prebuilt/init.semc.usb.rc:root/init.semc.usb.rc \
-    device/semc/zeus/prebuilt/hw_config.sh:system/etc/hw_config.sh \
-    device/semc/msm7x30-common/prebuilt/logo_H.rle:root/initlogo.rle
+    $(LOCAL_PATH)/rootdir/init.semc.usb.rc:root/init.semc.usb.rc \
+    $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh
 
 # Device specific configs
 PRODUCT_COPY_FILES += \
-    device/semc/zeus/config/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
-    device/semc/zeus/config/synaptics_touchpad.idc:system/usr/idc/synaptics_touchpad.idc \
-    device/semc/zeus/config/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    device/semc/zeus/config/keypad-game-zeus.kl:system/usr/keylayout/keypad-game-zeus.kl \
-    device/semc/zeus/config/keypad-phone-zeus.kl:system/usr/keylayout/keypad-phone-zeus.kl \
-    device/semc/zeus/config/keypad-zeus.kl:system/usr/keylayout/keypad-zeus.kl \
-    device/semc/zeus/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    device/semc/zeus/config/keypad-game-zeus.kcm:system/usr/keychars/keypad-game-zeus.kcm \
-    device/semc/zeus/config/keypad-zeus.kcm:system/usr/keychars/keypad-zeus.kcm \
-    device/semc/zeus/config/sensors.conf:system/etc/sensors.conf
-
-$(call inherit-product, device/semc/msm7x30-common/prebuilt/resources-hdpi.mk)
+    $(LOCAL_PATH)/rootdir/system/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
+    $(LOCAL_PATH)/rootdir/system/usr/idc/synaptics_touchpad.idc:system/usr/idc/synaptics_touchpad.idc \
+    $(LOCAL_PATH)/rootdir/system/usr/keychars/keypad-game-zeus.kcm:system/usr/keychars/keypad-game-zeus.kcm \
+    $(LOCAL_PATH)/rootdir/system/usr/keychars/keypad-zeus.kcm:system/usr/keychars/keypad-zeus.kcm \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/keypad-game-zeus.kl:system/usr/keylayout/keypad-game-zeus.kl \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/keypad-phone-zeus.kl:system/usr/keylayout/keypad-phone-zeus.kl \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/keypad-zeus.kl:system/usr/keylayout/keypad-zeus.kl \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+    $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf
 
 # Device properties
 PRODUCT_PROPERTY_OVERRIDES += \
