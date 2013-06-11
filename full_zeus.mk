@@ -18,6 +18,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from zeus device
 $(call inherit-product, device/semc/zeus/zeus.mk)
 
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 854
+TARGET_SCREEN_WIDTH := 480
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_zeus
 PRODUCT_DEVICE := zeus
