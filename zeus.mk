@@ -36,13 +36,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
     $(LOCAL_PATH)/rootdir/system/usr/idc/synaptics_touchpad.idc:system/usr/idc/synaptics_touchpad.idc \
-    $(LOCAL_PATH)/rootdir/system/usr/keychars/keypad-game-zeus.kcm:system/usr/keychars/keypad-game-zeus.kcm \
-    $(LOCAL_PATH)/rootdir/system/usr/keychars/keypad-zeus.kcm:system/usr/keychars/keypad-zeus.kcm \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/keypad-game-zeus.kl:system/usr/keylayout/keypad-game-zeus.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/keypad-phone-zeus.kl:system/usr/keylayout/keypad-phone-zeus.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/keypad-zeus.kl:system/usr/keylayout/keypad-zeus.kl \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+    $(LOCAL_PATH)/rootdir/system/usr/keychars/gpio-keypad.kcm:system/usr/keychars/gpio-keypad.kcm \
+    $(LOCAL_PATH)/rootdir/system/usr/keychars/pm8xxx-keypad.kcm:system/usr/keychars/pm8xxx-keypad.kcm \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/gpio-keypad.kl:system/usr/keylayout/gpio-keypad.kl \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/pm8xxx-keypad.kl:system/usr/keylayout/pm8xxx-keypad.kl \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/pmic-keypad.kl:system/usr/keylayout/pmic-keypad.kl \
     $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf
 
 # Device properties
