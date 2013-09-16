@@ -1,0 +1,14 @@
+# file pm8xxx-keypad.kl
+# this corresponds to kernel/arch/arm/mach-msm/keypad-zeus.c
+#
+# defines for values are in frameworks/base/include/ui/KeycodeLabels.h
+
+# KEY_VOLUMEUP, KEY_VOLUMEDOWN
+key 115   VOLUME_UP         WAKE
+key 114   VOLUME_DOWN       WAKE
+
+# BTN_SELECT
+key 314   BUTTON_SELECT
+
+# KEY_ENTER / Start
+key 28    BUTTON_START
