@@ -37,7 +37,6 @@ lib/libmmipl.so
 # Other libraries and proprietary binaries
 bin/akmd8975
 bin/chargemon
-bin/lidswitchd
 lib/libaudioalsa.so
 lib/libmiscta.so
 
