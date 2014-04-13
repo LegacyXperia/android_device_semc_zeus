@@ -19,7 +19,7 @@
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/zeus/bluedroid
 
 # Kernel
-TARGET_KERNEL_CONFIG := nAa_zeus_defconfig
+TARGET_KERNEL_CONFIG := lx_zeus_defconfig
 
 # Sensors
 SOMC_CFG_SENSORS_ACCEL_BMA150_INPUT := yes
