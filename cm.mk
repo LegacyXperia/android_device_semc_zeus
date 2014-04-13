@@ -36,3 +36,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=R800i BUILD_FINGERPRINT="SEMC/R800i
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := cm_zeus
 PRODUCT_DEVICE := zeus
+
+# Custom tag for unofficial builds
+TARGET_UNOFFICIAL_BUILD_ID := LegacyXperia
