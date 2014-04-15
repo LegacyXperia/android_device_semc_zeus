@@ -4,8 +4,8 @@
 # defines for values are in frameworks/base/include/ui/KeycodeLabels.h
 
 # BTN_TL, BTN_TR
-key 310   BUTTON_L1         WAKE_DROPPED
-key 311   BUTTON_R1         WAKE_DROPPED
+key 310   BUTTON_L1
+key 311   BUTTON_R1
 
 # BTN_Y, BTN_B, BTN_A, BTN_X,
 key 308   BUTTON_Y          WAKE_DROPPED
