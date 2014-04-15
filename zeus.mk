@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
 # Device specific configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
+    $(LOCAL_PATH)/rootdir/system/usr/idc/gpio-keypad.idc:system/usr/idc/gpio-keypad.idc \
     $(LOCAL_PATH)/rootdir/system/usr/idc/synaptics_touchpad.idc:system/usr/idc/synaptics_touchpad.idc \
     $(LOCAL_PATH)/rootdir/system/usr/keychars/gpio-keypad.kcm:system/usr/keychars/gpio-keypad.kcm \
     $(LOCAL_PATH)/rootdir/system/usr/keychars/pm8xxx-keypad.kcm:system/usr/keychars/pm8xxx-keypad.kcm \
