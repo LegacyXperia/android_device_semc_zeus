@@ -30,6 +30,7 @@ lib/libwmsts.so
 
 # Camera proprietaries
 lib/hw/camera.vendor.semc.so
+lib/libgemini.so
 lib/libmmipl.so
 lib/libmmjpeg.so
 lib/liboemcamera.so
