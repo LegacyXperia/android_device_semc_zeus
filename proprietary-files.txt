@@ -35,15 +35,8 @@ lib/libmmipl.so
 lib/libmmjpeg.so
 lib/liboemcamera.so
 
-# Audio
-lib/libaudioalsa.so
-
 # Compass
 bin/akmd8975
-
-# Offline charging
-bin/chargemon
-lib/libmiscta.so
 
 # PS Dependencies
 app/com.sonyericsson.androidapp.storefront.apk
