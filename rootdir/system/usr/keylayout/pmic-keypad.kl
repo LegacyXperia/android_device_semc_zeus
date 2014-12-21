@@ -5,6 +5,6 @@
 
 # KEY_MENU, KEY_HOME, KEY_BACK, KEY_SEARCH
 key 139   MENU
-key 102   HOME             WAKE_DROPPED
+key 102   HOME
 key 158   BACK
 key 217   SEARCH
