@@ -46,5 +46,4 @@ PRODUCT_COPY_FILES += \
 
 # Device properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=240 \
-    ro.telephony.ril_class=SemcQualcomm7x30RIL
+    ro.sf.lcd_density=240
