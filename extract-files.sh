@@ -36,6 +36,9 @@ then
 fi
 
 for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
+    if [[ "$FILE" =~ ^-.* ]]; then
+        FILE=`echo $FILE | sed s/^-//`
+    fi
     DIR=`dirname $FILE`
     if [ ! -d $BASE/$DIR ]; then
         mkdir -p $BASE/$DIR
