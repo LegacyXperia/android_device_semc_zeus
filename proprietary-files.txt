@@ -38,8 +38,8 @@ lib/liboemcamera.so
 bin/akmd8975
 
 # PS Dependencies
-app/com.sonyericsson.androidapp.storefront.apk
-app/preinstalledservice.apk
+-app/com.sonyericsson.androidapp.storefront/com.sonyericsson.androidapp.storefront.apk
+-app/preinstalledservice/preinstalledservice.apk
 etc/permissions/com.playstation.playstationcertified.xml
 etc/permissions/com.sonyericsson.android.xperiaplaycertified.xml
 etc/permissions/com.sony.android.playstationcertified.xml
