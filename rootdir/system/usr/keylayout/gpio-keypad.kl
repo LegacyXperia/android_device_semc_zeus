@@ -8,16 +8,16 @@ key 310   BUTTON_L1
 key 311   BUTTON_R1
 
 # BTN_Y, BTN_B, BTN_A, BTN_X,
-key 308   BUTTON_Y
-key 305   BACK        ALT
-key 304   DPAD_CENTER
-key 307   BUTTON_X
+key 308   BUTTON_Y          WAKE
+key 305   BACK        ALT   WAKE
+key 304   DPAD_CENTER       WAKE
+key 307   BUTTON_X          WAKE
 
 # KEY_UP, KEY_LEFT, KEY_RIGHT, KEY_DOWN
-key 103   DPAD_LEFT
-key 105   DPAD_DOWN
-key 106   DPAD_UP
-key 108   DPAD_RIGHT
+key 103   DPAD_LEFT         WAKE
+key 105   DPAD_DOWN         WAKE
+key 106   DPAD_UP           WAKE
+key 108   DPAD_RIGHT        WAKE
 
 # KEY_MEDIA
-key 226   MENU
+key 226   MENU              WAKE
