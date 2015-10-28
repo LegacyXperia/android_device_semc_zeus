@@ -1,4 +1,4 @@
-# Copyright (C) 2011-2013 The CyanogenMod Project
+# Copyright (C) 2015 LegacyXperia Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,8 +15,8 @@
 # Inherit device configuration
 $(call inherit-product, device/semc/zeus/full_zeus.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+# Inherit some common LX stuff.
+$(call inherit-product, vendor/lx/config/common.mk)
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -26,8 +26,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="R800i-user 4.0.3 4.1.H.0.4 -z9-3w test-keys"
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_zeus
+PRODUCT_NAME := lx_zeus
 PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
-
-# Custom tag for unofficial builds
-TARGET_UNOFFICIAL_BUILD_ID := LegacyXperia
