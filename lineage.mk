@@ -15,7 +15,7 @@
 # Inherit device configuration
 $(call inherit-product, device/semc/zeus/full_zeus.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 
 # Set build fingerprint / ID / Product Name ect.
@@ -26,7 +26,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="R800i-user 4.0.3 4.1.H.0.4 -z9-3w test-keys"
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_zeus
+PRODUCT_NAME := lineage_zeus
 PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
 
 # Custom tag for unofficial builds
